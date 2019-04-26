@@ -1,0 +1,63 @@
+---
+title: "La migración de rapaces"
+---
+
+<p align="justify">
+Todos los años una gran cantidad de aves rapases viajan, desde el Hemisferio Norte al Hemisferio Sur, en un viaje de ida y vuelta, estas aves emprenden el vuelo hacia el Sur entre agosto y diciembre, esto debido a las condiciones climáticas severas del invierno y la consecuente escasez de presas en el hemisferio norte.  
+</p>
+\
+<p align="justify">
+Esta gran cantidad de aves surcando los cielos en épocas ya establecidas, ha intrigado a la humanidad durante años. Por ejemplo, en nuestro país, el pueblo indígena Bribri ejecuta un baile en el que los danzantes se disponen en círculo, he imitando el vuelo en círculo que realizan los zopilotes y gavilanes en las termales. Las termales son corrientes verticales esenciales para las rapaces durante la migración, ya que les sirven para remontar y así ganar altitud, sin realizar el vuelo batido que demanda mucha energía. 
+</p>
+\
+\
+![](imagen/termal.JPG)
+
+**Imagen 3:** Rapaces en una termal 
+
+
+
+\
+\
+
+**Importancia del monitoreo de migraciones.** 
+<p align="justify">
+Actualmente un método para el estudio de las aves migratorias es el anillamiento se capturan las aves, se les colocan anillos codificados en las patas y luego se liberan y eventualmente, cuando son observadas o recapturadas en otros lugares, se recupera la información y con ello se lograr descifrar los patrones de desplazamiento.
+</p>
+\
+<p align="justify">
+Sin embargo, también se utiliza el método de observación en estaciones de monitoreo aplicando metodologías ya establecidas que son de suma  importancia,  ya que se logra un mejor entendimiento de la magnitud y la fenología del vuelo de estas aves. 
+</p>
+
+![](imagen/zopi.JPG)
+
+**Imagen 4** Zopilote cabeza roja migrando. 
+
+\
+\
+
+
+
+**Principales especies vistas** 
+
+```{r}
+par(mar=c(11,4,4,4))
+
+my_vector<-c(12,6001,108,6,6174,4,152,10 )
+
+barplot(my_vector, col=rgb(0.2,0.4,0.6,0.6), names.arg=c("Elanoides forficatus","Buteo platypterus",	"Buteo swainsoni",	"Pandion haliaetus"	,"Cathartes aura",	"Falco peregrinus",	"Ictinia mississippiensis",	"Buteo albononatus"), las=2 )
+
+```
+\
+<p align="justify">
+El presente grafico de barras muestra  las especie que tuvieron mas cantidad de  individuos, siendo estas; *Cathartes aura* con 6174 individuos contados seguido del *Buteo platypterus* con 6001 individuos.
+</p>
+
+\
+\
+\
+
+**Referencias consultadas.** 
+\
+Sánchez. J.(s.f). Migración de aves rapases. Disponible en. 	http://www.museocostarica.go.cr/images/documentos/aves_rapaces.pdf.
+

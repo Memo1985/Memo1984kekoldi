@@ -1,0 +1,8 @@
+name: "KEKOLDI"
+navbar:
+  title: "KEKOLDI"
+  left:
+    - text: "Río bastón del Awa"
+      href: index.html
+    - text: "Migración"
+      href: about.html
